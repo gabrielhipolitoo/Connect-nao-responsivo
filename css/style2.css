@@ -150,3 +150,9 @@ form input::placeholder{
 }
 
 
+footer{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align:center;
+}
+
