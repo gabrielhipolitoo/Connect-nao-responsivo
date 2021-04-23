@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+main{
+    min-height: 100vh;
+    background-color: #292a2c;
+}
+
+section{
+    min-height: 100vh;
+    display: inline-block;
+    width: 500px;
+}
+
+.allign{
+    text-align: center;
+    width: 10%;
+}
+
+
+
+header > h1{
+    margin-left: 40px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    color: #e24a1a;
+}
+
+header h1::after{
+    color: #292a2c;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #e24a1a;
+    content: 'account';
+}
+
+#icons{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#icons span{
+    top: -7px;
+    position: relative;
+    color:rgb(255, 115, 0);
+    font-family: 'Roboto' , sans-serif;
+    font-size: 17px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+#icons div{
+    margin: 0 5px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#icons img{
+    width: 40px;
+    height: 40px;
+}
+
+#icons1, #icons3{
+    height: 60px;
+    border-bottom: 1px solid #e24a1a;
+}
+
+
+
+form{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.submit{
+    background-color: wheat;
+    height: 0;
+}
+
+
+.submit input{
+    cursor: pointer;
+    color: #292a2c;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #e24a1a;
+    width: 160px;
+}
+
+
+
+form div p{
+    width: 20px;
+    border-bottom: 1px solid #e24a1a;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #e24a1a;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+
+form div input{
+    height: 40px;
+    color: rgb(185, 95, 22);
+    outline: none;
+    background-color: #4f525e;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 30px;
+    width: 280px;
+    padding: 8px;
+}
+
+#right{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    float: right;
+    height: 450px;
+    margin-right: 70px;
+    width: 650px;
+}
+
+form input::placeholder{
+    padding-left: 5px;
+    color: #292a2c;
+}
+
+
+
+#right img{
+    width: 100%;
+}
+
+

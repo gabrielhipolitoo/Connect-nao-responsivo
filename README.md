@@ -1,2 +1,2 @@
-# Connect-responsivo
- Página de sing-up não responsiva
+# Connect-se
+ Página simples de sing up
